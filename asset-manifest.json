@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/intimacao-virtual/static/css/main.e7bc2ae9.css",
+    "main.js": "/intimacao-virtual/static/js/main.7abfbb9c.js",
+    "static/js/498.41ea7fee.chunk.js": "/intimacao-virtual/static/js/498.41ea7fee.chunk.js",
+    "static/js/703.b8762da4.chunk.js": "/intimacao-virtual/static/js/703.b8762da4.chunk.js",
+    "static/js/598.91a2f47f.chunk.js": "/intimacao-virtual/static/js/598.91a2f47f.chunk.js",
+    "static/js/787.cb3bb912.chunk.js": "/intimacao-virtual/static/js/787.cb3bb912.chunk.js",
+    "static/media/logo-policial-civil.png": "/intimacao-virtual/static/media/logo-policial-civil.46adb87edb2802c35d21.png",
+    "index.html": "/intimacao-virtual/index.html",
+    "main.e7bc2ae9.css.map": "/intimacao-virtual/static/css/main.e7bc2ae9.css.map",
+    "main.7abfbb9c.js.map": "/intimacao-virtual/static/js/main.7abfbb9c.js.map",
+    "498.41ea7fee.chunk.js.map": "/intimacao-virtual/static/js/498.41ea7fee.chunk.js.map",
+    "703.b8762da4.chunk.js.map": "/intimacao-virtual/static/js/703.b8762da4.chunk.js.map",
+    "598.91a2f47f.chunk.js.map": "/intimacao-virtual/static/js/598.91a2f47f.chunk.js.map",
+    "787.cb3bb912.chunk.js.map": "/intimacao-virtual/static/js/787.cb3bb912.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7bc2ae9.css",
+    "static/js/main.7abfbb9c.js"
+  ]
+}
