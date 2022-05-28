@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 17px;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,112 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+fieldset {
+  border: 0;
+}
+
+body, input, select, textarea, button {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+  content: " ";
+  display: table;
+}
+
+.grupo:after {
+  clear: both;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #666;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float:  left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid #CCC;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #FFC;
+}
+
+.campo label.checkbox {
+  color: #000;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.botao {
+  font-size: 1.5em;
+  background:black;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #FFF;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+  background:grey;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+.botao, .botao-secundario, select, label.checkbox {
+  cursor: pointer;
+}
+
+.botao-secundario {
+  font-size: 1.5em;
+  background: white;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: black;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao-secundario:hover {
+  background: grey;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
 }
